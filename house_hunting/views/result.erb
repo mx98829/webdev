@@ -1,7 +1,7 @@
-<a href="/"> Add a new housing </a>
+<p><a href="/"> Add a new housing </a></p>
 
 <ul>
-  <%  @question_list.select {|key, value| key != "test" }.select do |id, choice| %>
+  <%  filter_session_input.select do |id, choice| %>
     <li><%= choice.values.join(", ")%></li>
     
      <form action ="/<%=id %>/remove" method="post">
