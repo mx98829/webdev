@@ -6,3 +6,9 @@ eee: !ruby/string:BCrypt::Password
   cost: 10
   salt: "$2a$10$t/k3DlNWBgZny5zGQLC0pu"
   checksum: xBwaRIe9gcD8h6wW6o/YFxhvfKryPdi
+'111111': !ruby/string:BCrypt::Password
+  str: "$2a$10$Ydr/5xZC7MdTmVGxLmDr5ewEFKr2dSUUILPD9ULOnjCJv2w9z7.dK"
+  version: 2a
+  cost: 10
+  salt: "$2a$10$Ydr/5xZC7MdTmVGxLmDr5e"
+  checksum: wEFKr2dSUUILPD9ULOnjCJv2w9z7.dK
